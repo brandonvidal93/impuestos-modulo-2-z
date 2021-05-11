@@ -1,0 +1,41 @@
+@import "../resources/colors";
+@import "../resources/animation.scss";
+
+.slides {
+  .icon {
+    color: $color2;
+    font-size: 3em;
+  }
+  .buttons {
+    width: 85px;
+    .buttonSlide {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 35px;
+      height: 35px;
+      background-color: $color4;
+      border-radius: 50%;
+      border: 0;
+      text-align: center;
+      box-shadow: 0 3px 10px -4px rgba(0, 0, 0, 0.3);
+      cursor: pointer;
+      outline: none;
+      transition: all 0.4s;
+
+      .iconButton {
+        color: $color1;
+        transition: all 0.4s;
+      }
+
+      &:hover {
+        background-color: $color2;
+        animation: pulse5 1.5s both;
+        .iconButton {
+          color: $color4;
+        }
+      }
+    }
+  }
+}

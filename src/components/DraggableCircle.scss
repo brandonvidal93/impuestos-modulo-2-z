@@ -1,0 +1,80 @@
+@import "../resources/colors";
+@import "../resources/animation.scss";
+
+.draggableCircle {
+  height: 355px;
+  // border: 1px solid;
+  background-image: url('../assets/img/backgrounds/arrows.png');
+  background-position: center 245px;
+  background-repeat: no-repeat;
+
+  .itemDrag, .itemDrop { position: absolute; }
+
+  .itemDrop {
+    filter: grayscale(100%);
+  }
+
+  .dragBg {
+    position: absolute;
+    opacity: 0.2;
+    z-index: -1;
+    user-select: none;
+    filter: grayscale(100%);
+  }
+
+  .infoGloble {
+    position: absolute;
+    background-color: $color2;
+    padding: 1em;
+    z-index: 4;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
+
+    .buttonClose {
+      position: absolute;
+      top: -15px;
+      left: 475px;
+      background-color: rgba(0, 0, 0, 0);
+      .iconButton {
+        color: red;
+        font-size: 2.3em;
+        transition: all .3s;
+      }
+
+      &:hover {
+        .iconButton {
+          color: #cf0000;
+        }
+      }
+    }
+  }
+
+  .triang-izq {
+    &:before {
+      content: "";
+      display: block;
+      width: 0;
+      height: 0;
+      border-top: 12px solid transparent;
+      border-bottom: 12px solid transparent;
+      border-right: 12px solid $color2;
+      position: absolute;
+      top: 40%;
+      left: -12px;
+    }
+  }
+
+  .triang-der {
+    &:before {
+      content: "";
+      display: block;
+      width: 0;
+      height: 0;
+      border-top: 12px solid transparent;
+      border-bottom: 12px solid transparent;
+      border-left: 12px solid $color2;
+      position: absolute;
+      top: 40%;
+      right: -12px;
+    }
+  }
+}

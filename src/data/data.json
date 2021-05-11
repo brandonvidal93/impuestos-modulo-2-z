@@ -1,0 +1,1460 @@
+{
+  "coverPage": {
+    "type": "startPage",
+    "units": 7,
+    "title": "Impuestos",
+    "subTitle": "nacionales y territoriales",
+    "module": "Módulo 2",
+    "courseName": "Impuesto corporativo sobre la renta y complementarios",
+    "logoCourse": "img/logo.png",
+    "buttonStart": "Iniciar",
+    "modal": {
+      "type": "videoModal",
+      "title": "¡Ten en cuenta!",
+      "text": "Antes de iniciar, te invitamos hacer el recorrido de navegación mediante el siguiente instructivo.",
+      "buttonModal": "Guía de Navegación",
+      "closedModal": true,
+      "urlVideo": "video/guia-navegacion-impuestos.mp4"
+    },
+    "footer": {
+      "label": "Impuesto corporativo"
+    }
+  },
+
+  "page1": {
+    "type": "menuPage",
+    "title": "¡Bienvenido(a)!",
+    "text": "Los temas que visualizarás en este módulo son los siguientes:",
+    "Units": [
+      {
+        "unit": 1,
+        "title": "Introducción",
+        "text": "Los municipios y los departamentos son entes territoriales y son creados para efectos tributarios.",
+        "imgBg": "img/units/unit-1.png",
+        "goTo": 2,
+        "fullVisited": false,
+        "position": 125
+      },
+      {
+        "unit": 2,
+        "title": "Sujetos de impuestos territoriales industria y comercio",
+        "text": "Existen dos tipos de sujetos para los...",
+        "imgBg": "img/units/unit-2.png",
+        "goTo": 3,
+        "fullVisited": false,
+        "position": -418
+      },
+      {
+        "unit": 3,
+        "title": "Impuesto de industria y comercio",
+        "text": "En la página web de la Cámara de Comercio de Bogotá aparece la siguiente definición con...",
+        "imgBg": "img/units/unit-3.png",
+        "goTo": 5,
+        "fullVisited": false,
+        "position": -963
+      },
+      {
+        "unit": 4,
+        "title": "Impuesto de avisos y tableros",
+        "text": "El impuesto de avisos y tableros es el impuesto que se paga por la instalación de avisos en...",
+        "imgBg": "img/units/unit-4.png",
+        "goTo": 9,
+        "fullVisited": false,
+        "position": -1505
+      },
+      {
+        "unit": 5,
+        "title": "Impuesto predial",
+        "text": "Son sujetos pasivos todos los propietarios de predios, inmuebles urbanos o rurales",
+        "imgBg": "img/units/unit-5.png",
+        "goTo": 10,
+        "fullVisited": false,
+        "position": -2060
+      },
+      {
+        "unit": 6,
+        "title": "Impuesto de vehículos",
+        "text": "¿Sabes cómo se calcula el impuesto sobre vehículos automotores? Es muy simple, debes tener...",
+        "imgBg": "img/units/unit-6.png",
+        "goTo": 14,
+        "fullVisited": false,
+        "position": -2605
+      },
+      {
+        "unit": 7,
+        "title": "Otros impuestos",
+        "text": "Son los impuestos que se cobran a las compañías avícolas, porcícolas, entre otros...",
+        "imgBg": "img/units/unit-7.png",
+        "goTo": 16,
+        "fullVisited": false,
+        "position": -3160
+      }
+    ],
+    "instruction": {
+      "text": "Haz clic en los círculos para navergar en los temas y ver su contenido",
+      "posY": 450,
+      "posX": 40,
+      "size": 310
+    }
+  },
+
+  "page2": {
+    "type": "pageCourse",
+    "startUnit": true,
+    "endUnit": true,
+    "nameUnit": "unit1",
+    "title": "1. Introducción",
+    "text": "Los municipios y los departamentos son entes territoriales y son creados para efectos tributarios. Estos entes a través de sus órganos respectivos emitirán las normas para efectos tributarios que a bien establezca su corporación.",
+    "text2": "",
+    "instruction": {
+      "type": "info",
+      "link": "",
+      "text": "Haz clic cada ícono para conocer qué órgano legisla en el departamento y en el municipio – distrito",
+      "posY": 460,
+      "posX": 20,
+      "size": 310
+    },
+    "multimedia": {
+      "button": [
+        {
+          "text": "",
+          "numBtn": 1,
+          "img": "img/2/cityscape.png"
+        },
+        {
+          "text": "",
+          "numBtn": 2,
+          "img": "img/2/village.png"
+        }
+      ],
+      "content": [
+        {
+          "info": 1,
+          "img": "img/2/cityscape.png",
+          "imgSize": 150,
+          "title": "Departamento",
+          "text": "<h5 class = 'mB-05 fw-4 tCenter'>La Asamblea Departamental es el órgano que legisla sobre tributos departamentales, que entre otros tenemos:</h5> <h5 class = 'mB-025 fw-4 tCenter'>El impuesto al consumo de licores</h5> <h5 class = 'mB-025 fw-4 tCenter'>El impuesto a tabacos y cigarrillos</h5> <h5 class = 'mB-025 fw-4 tCenter'>Rentas departamentales</h5> <h5 class = 'mB-025 fw-4 tCenter'>Degüelle de ganado mayor</h5> <h5 class = 'mB-025 fw-4 tCenter'>Entre otros</h5>"
+        },
+        {
+          "info": 2,
+          "img": "img/2/village.png",
+          "imgSize": 150,
+          "title": "Municipio y/o distrito",
+          "text": "<h5 class = 'mB-05 fw-4 tCenter'>El órgano legislador sobre tributos es el Concejo Municipal o Distrital, que a través de acuerdos se legisla sobre sus tributos, estos son algunos:</h5> <h5 class = 'mB-025 fw-4 tCenter'>Industria y comercio</h5> <h5 class = 'mB-025 fw-4 tCenter'>Impuesto de avisos y tableros</h5> <h5 class = 'mB-025 fw-4 tCenter'>Impuesto predial</h5> <h5 class = 'mB-025 fw-4 tCenter'>Degüelle de ganado menor</h5> <h5 class = 'mB-025 fw-4 tCenter'>Entre otros</h5>"
+        }
+      ]
+    }
+  },
+
+  "page3": {
+    "type": "pageCourse",
+    "startUnit": true,
+    "title": "2. Sujetos de impuestos territoriales </br> de industria y comercio",
+    "text": "Para conocer cuáles son los distintos tipos de sujetos de impuestos de industria y comercio, visualiza el siguiente video.",
+    "text2": "Existen dos tipos de sujetos para los impuestos territoriales de industria y comercio, estos son:",
+    "boxInfo": {
+      "title": "RECURSO AUDIOVISUAL",
+      "text": "Visualiza el siguiente video para conocer la información.",
+      "imgBg": "img/video-1.png"
+    },
+    "instruction": {
+      "text": "Haz clic en botón Play para reproducir el material audiovisual.",
+      "posY": 60,
+      "posX": 0,
+      "size": 300
+    },
+    "modal": {
+      "type": "videoModal",
+      "title": "",
+      "text": "",
+      "buttonModal": "",
+      "closedModal": true,
+      "urlVideo": "video/sujetos-de-impuestos-territoriales.mp4"
+    }
+  },
+
+  "page4": {
+    "type": "pageCourse",
+    "endUnit": true,
+    "nameUnit": "unit2",
+    "title": "2. Sujetos de impuestos territoriales </br> de industria y comercio",
+    "text": "Es de precisar que cada municipio es autónomo en la asignación de tarifas enmarcadas en la legislación nacional para tal efecto. La ley marco se estableció en el año 1983 con la Ley 14 y sus posteriores reglamentaciones y modificaciones, pero aún está vigente en casi toda su normatividad.",
+    "instruction": {
+      "type": "info",
+      "link": "",
+      "text": "Haz clic en los botones para conocer el contenido complementario.",
+      "posY": 485,
+      "posX": 20,
+      "size": 330
+    },
+    "multimedia": [
+      {
+        "id": 1,
+        "color": "#93C01F",
+        "title": "",
+        "img": "img/4/law.png",
+        "text": "Esta ley reglamenta el impuesto de industria y comercio, el impuesto predial, entre otros, pero la modificación más reciente es la Ley 1819 de 2016, que establece el impuesto de industria y comercio para los independientes, incluye al desempeño de las profesiones liberales, contadores, abogados, ingenieros, entre otros."
+      },
+      {
+        "id": 2,
+        "color": "#F15A24",
+        "title": "",
+        "img": "img/4/auction.png",
+        "text": "Esta Ley que fue promulgada por el Congreso de la República tiene aplicación de orden nacional, pero es potestad en cada ente territorial si se incorpora en su ordenamiento tributario o no, ejemplo de ello es el municipio de Medellín que en el último acuerdo realizado en el año 2017 para modificar el estatuto tributario, estableció que no era necesario aplicar esta norma en esta jurisdicción."
+      },
+      {
+        "id": 3,
+        "color": "#00B6D2",
+        "title": "",
+        "img": "img/4/legal-paper.png",
+        "text": "Así no sucedió en el municipio de Rionegro – Antioquia, porque allí quedó establecido que el desempeño o realización de actividades realizadas por profesionales liberales está gravada con el Impuesto de Industria y Comercio."
+      }
+    ]
+  },
+
+  "page5": {
+    "type": "pageCourse",
+    "startUnit": true,
+    "title": "3. Impuesto de industria y comercio",
+    "text": "En la página web de la Cámara de Comercio de Bogotá aparece la siguiente definición con referencia al impuesto de industria y comercio.",
+    "instruction": {
+      "type": "info",
+      "link": "",
+      "text": "Haz clic en los botones laterales para conocer el contenido.",
+      "posY": 485,
+      "posX": 20,
+      "size": 330
+    },
+    "multimedia": [
+      {
+        "id": 1,
+        "title": "",
+        "text": "Es el impuesto que se genera por el ejercicio o realización directa o indirecta de cualquier actividad industrial, comercial o de servicios en un determinado municipio...",
+        "img": ""
+      },
+      {
+        "id": 2,
+        "title": "",
+        "text": "... Y se causa así la persona posea o no establecimiento de comercio.",
+        "img": ""
+      },
+      {
+        "id": 3,
+        "title": "",
+        "text": "Lo recaudado por este impuesto se destina a atender los servicios públicos y las necesidades de la comunidad pertenecientes al respectivo municipio o distrito.",
+        "img": ""
+      }
+    ]
+  },
+
+  "page6": {
+    "type": "pageCourse",
+    "title": "3. Impuesto de industria y comercio",
+    "text": "Ahora bien, ¿cuál es la jurisdicción en donde debo pagar este impuesto?",
+    "instruction": {
+      "type": "print",
+      "link": "docs/doc-1-ejemplos-de-impuesto-de-Industria-y-comercio.pdf",
+      "text": "Descarga el siguiente documento donde encontrarás algunos ejemplos de industria y comercio.",
+      "posY": 450,
+      "posX": 20,
+      "size": 310
+    },
+    "instruction2": {
+      "text": "Haz clic en los botones numéricos para conocer el contenido.",
+      "posY": 380,
+      "posX": 20,
+      "size": 230
+    },
+    "bgPiramid": {
+      "img": "img/6/centerP.png",
+      "top": 157,
+      "left": 420
+    },
+    "multimediaCircular": [
+      {
+        "id": 1,
+        "pos": {
+          "top": 0,
+          "left": 420,
+          "img": "img/6/p1.png"
+        },
+        "itemInfo": {
+          "title": "",
+          "color": "#FF6A3D",
+          "text": "“Desde tiempo atrás, se han presentado distintas posturas en relación con la territorialidad del ICA, prestándose para que los municipios pretendan obtener el pago del tributo en sus municipios a cualquier costa, y son innumerables las demandas ante los tribunales para que diriman las controversias.",
+          "posGlobe": {
+            "posY": 15,
+            "posX": 540,
+            "size": 410
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -15,
+            "posX": 385
+          },
+          "posTriang": "left"
+        }
+      },
+      {
+        "id": 2,
+        "pos": {
+          "top": 159,
+          "left": 329,
+          "img": "img/6/p2.png"
+        },
+        "itemInfo": {
+          "title": "",
+          "color": "#A0A0A0",
+          "text": "Pues bien, mediante la sentencia 19256 de agosto de 2014, el Consejo de Estado unificó su criterio en este aspecto y consideró que el impuesto de Industria y Comercio es un tributo municipal, que grava la realización de actividades industriales, comerciales y de servicio...",
+          "posGlobe": {
+            "posY": 204,
+            "posX": 440,
+            "size": 410
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -15,
+            "posX": 385
+          },
+          "posTriang": "left"
+        }
+      },
+      {
+        "id": 3,
+        "pos": {
+          "top": 159,
+          "left": 511,
+          "img": "img/6/p3.png"
+        },
+        "itemInfo": {
+          "title": "",
+          "color": "#40C9DE",
+          "text": "Que su causación, cuando se trata de actividades comerciales de venta de bienes, tiene lugar en el sitio en que concurren los elementos del contrato de compraventa, esto es, el precio, el plazo de pago y la cosa que se vende. Así mismo, que para determinar la jurisdicción en que se configura la obligación tributaria, no resulta relevante establecer el lugar desde el cual se realizan los pedidos” tomado de: https://www.incp.org.co/concepto-del-minhacienda-territorialidad-del-impuesto-industria-comercio/",
+          "posGlobe": {
+            "posY": 165,
+            "posX": 167,
+            "size": 410
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -15,
+            "posX": -20
+          },
+          "posTriang": "right"
+        }
+      }
+    ]
+  },
+
+  "page7": {
+    "type": "pageCourse",
+    "title": "3. Impuesto de industria y comercio",
+    "text": "",
+    "multimedia": {
+      "audio": {
+        "src": "audio/impuestos.mp3",
+        "autoPlay": true
+      },
+      "subtitles": {
+        "0": "Impuesto de industria y comercio",
+        "3": "Es necesario aclarar que los ingresos por actividades comerciales y de servicios prestados en cada municipio serán gravadas en esos municipios.",
+        "11": "Pero los ingresos por actividades de industria o manufactura se gravan en el domicilio principal del industrial.",
+        "18": "En otras palabras, los ingresos de una empresa que fabrica camisas de dama que tiene su sede principal en Barranquilla,",
+        "24": "pero tiene puntos de distribución en 50 municipios de Colombia, como es industrial la actividad que realiza (manufactura de camisas de dama),",
+        "32": "el impuesto de industria y comercio total lo paga en el municipio de Barranquilla."
+      },
+      "movePage": true,
+      "moveTime": 18,
+      "layers": [
+        [
+          {
+            "label": "Es necesario aclarar</br> que los ingresos",
+            "labelSide": "bottom",
+            "icon": "img/7/i1.png",
+            "time": 3,
+            "size": 140,
+            "position": {
+              "xPosition": 0,
+              "yPosition": 80
+            }
+          },
+          {
+            "icon": "img/7/l1.png",
+            "time": 4,
+            "size": 170,
+            "position": {
+              "xPosition": 90,
+              "yPosition": -20
+            }
+          },
+          {
+            "label": "actividades comerciales</br> servicios prestados",
+            "labelSide": "bottom",
+            "icon": "img/7/i2.png",
+            "time": 5,
+            "size": 175,
+            "position": {
+              "xPosition": 160,
+              "yPosition": -40
+            }
+          },
+          {
+            "icon": "img/7/l2.png",
+            "time": 6,
+            "size": 239,
+            "position": {
+              "xPosition": 259,
+              "yPosition": -45
+            }
+          },
+          {
+            "label": "serán gravadas</br> en esos municipios",
+            "labelSide": "bottom",
+            "icon": "img/7/i3.png",
+            "time": 8,
+            "size": 191,
+            "position": {
+              "xPosition": 355,
+              "yPosition": -10
+            }
+          },
+          {
+            "label": "los ingresos por</br> actividades de industria",
+            "labelSide": "bottom",
+            "icon": "img/7/i4.png",
+            "time": 11,
+            "size": 210,
+            "position": {
+              "xPosition": 535,
+              "yPosition": 0
+            }
+          },
+          {
+            "icon": "img/7/l3.png",
+            "time": 12,
+            "size": 189,
+            "position": {
+              "xPosition": 750,
+              "yPosition": 35
+            }
+          },
+          {
+            "label": "se gravan en el domicilio principal del industrial.",
+            "labelSide": "bottom",
+            "time": 14,
+            "size": 310,
+            "icon": "img/7/i5.png",
+            "position": {
+              "xPosition": 630,
+              "yPosition": 95
+            }
+          },
+
+          {
+            "label": "los ingresos de una empresa</br> que fabrica camisas",
+            "labelSide": "bottom",
+            "time": 18,
+            "size": 170,
+            "icon": "img/7/i6.png",
+            "position": {
+              "xPosition": 960,
+              "yPosition": 120
+            }
+          },
+          {
+            "icon": "img/7/l4.png",
+            "time": 19,
+            "size": 189,
+            "position": {
+              "xPosition": 1040,
+              "yPosition": 5
+            }
+          },
+          {
+            "label": "sede principal en</br> Barranquilla",
+            "labelSide": "bottom",
+            "time": 22,
+            "size": 180,
+            "icon": "img/7/i7.png",
+            "position": {
+              "xPosition": 1140,
+              "yPosition": 20
+            }
+          },
+          {
+            "icon": "img/7/l5.png",
+            "time": 23,
+            "size": 189,
+            "position": {
+              "xPosition": 1226,
+              "yPosition": -19
+            }
+          },
+          {
+            "label": "tiene puntos de</br> distribución",
+            "labelSide": "bottom",
+            "time": 24,
+            "size": 170,
+            "icon": "img/7/i8.png",
+            "position": {
+              "xPosition": 1340,
+              "yPosition": 10
+            }
+          },
+          {
+            "icon": "img/7/l6.png",
+            "time": 25,
+            "size": 189,
+            "position": {
+              "xPosition": 1410,
+              "yPosition": -39
+            }
+          },
+          {
+            "label": "en 50 municipios</br> de Colombia",
+            "labelSide": "bottom",
+            "time": 26,
+            "size": 190,
+            "icon": "img/7/i9.png",
+            "position": {
+              "xPosition": 1540,
+              "yPosition": -10
+            }
+          },
+          {
+            "icon": "img/7/l7.png",
+            "time": 27,
+            "size": 189,
+            "position": {
+              "xPosition": 1600,
+              "yPosition": -58
+            }
+          },
+          {
+            "label": "como es industrial la</br> actividad que realiza",
+            "labelSide": "bottom",
+            "time": 28,
+            "size": 230,
+            "icon": "img/7/i10.png",
+            "position": {
+              "xPosition": 1730,
+              "yPosition": -80
+            }
+          },
+          {
+            "icon": "img/7/l8.png",
+            "time": 29,
+            "size": 219,
+            "position": {
+              "xPosition": 1730,
+              "yPosition": 206
+            }
+          },
+          {
+            "label": "(manufactura de</br> camisas de dama)",
+            "labelSide": "bottom",
+            "time": 30,
+            "size": 130,
+            "icon": "img/7/i11.png",
+            "position": {
+              "xPosition": 1570,
+              "yPosition": 150
+            }
+          },
+          {
+            "icon": "img/7/l9.png",
+            "time": 31,
+            "size": 189,
+            "position": {
+              "xPosition": 1544,
+              "yPosition": 285
+            }
+          },
+          {
+            "label": "el impuesto de industria</br> y comercio total",
+            "labelSide": "bottom",
+            "time": 32,
+            "size": 150,
+            "icon": "img/7/i12.png",
+            "position": {
+              "xPosition": 1360,
+              "yPosition": 120
+            }
+          },
+          {
+            "icon": "img/7/l10.png",
+            "time": 33,
+            "size": 340,
+            "position": {
+              "xPosition": 1204,
+              "yPosition": 201
+            }
+          },
+          {
+            "label": "lo paga en el municipio</br> de Barranquilla",
+            "labelSide": "bottom",
+            "time": 34,
+            "size": 150,
+            "icon": "",
+            "position": {
+              "xPosition": 1240,
+              "yPosition": 190
+            }
+          }
+        ]
+      ]
+    }
+  },
+
+  "page8": {
+    "type": "pageCourse",
+    "endUnit": true,
+    "nameUnit": "unit3",
+    "title": "Recuerda lo aprendido",
+    "text": "Para comprobar qué tanto has comprendido hasta el momento, te invitamos a realizar el siguiente ejercicio:",
+    "instruction": {
+      "type": "info",
+      "link": "",
+      "text": "Lleva las palabras a los espacios donde consideres que deben de ir, no te preocupes si no sabes la respuesta, cuando lo hagas podrás descubrirlo.",
+      "posY": 470,
+      "posX": 20,
+      "size": 450
+    },
+    "multimedia": {
+      "dragItem": [
+        {
+          "id": 1,
+          "text": "municipal"
+        },
+        {
+          "id": 2,
+          "text": "departamentales"
+        },
+        {
+          "id": 3,
+          "text": "activos"
+        },
+        {
+          "id": 4,
+          "text": "Distrital"
+        },
+        {
+          "id": 5,
+          "text": "municipios"
+        },
+        {
+          "id": 6,
+          "text": "industria"
+        },
+        {
+          "id": 7,
+          "text": "municipales."
+        },
+        {
+          "id": 8,
+          "text": "pasivos"
+        },
+        {
+          "id": 9,
+          "text": "comercio"
+        },
+        {
+          "id": 10,
+          "text": "industriales"
+        },
+        {
+          "id": 11,
+          "text": "financieras."
+        }
+      ],
+      "dropZone": {
+        "paragraph": [
+          {
+            "key": 1,
+            "lines": [
+              {
+                "key": 1,
+                "text": "La Asamblea Departamental es el órgano que legisla sobre tributos",
+                "posY": 70,
+                "posX": 40
+              }
+            ],
+            "drops": [
+              {
+                "key": 1,
+                "box": "<div class = 'boxDrop'></div>",
+                "size": 150,
+                "posY": 57,
+                "posX": 472,
+                "type": "departamentales"
+              }
+            ]
+          },
+          {
+            "key": 2,
+            "lines": [
+              {
+                "key": 1,
+                "text": "El Concejo Municipal o",
+                "posY": 70,
+                "posX": 30
+              },
+              {
+                "key": 2,
+                "text": "es el órgano legislador sobre tributos",
+                "posY": 70,
+                "posX": 280
+              }
+            ],
+            "drops": [
+              {
+                "key": 1,
+                "box": "<div class = 'boxDrop'></div>",
+                "size": 85,
+                "posY": 57,
+                "posX": 180,
+                "type": "Distrital"
+              },
+              {
+                "key": 2,
+                "box": "<div class = 'boxDrop'></div>",
+                "size": 105,
+                "posY": 57,
+                "posX": 520,
+                "type": "municipales."
+              }
+            ]
+          },
+          {
+            "key": 3,
+            "lines": [
+              {
+                "key": 1,
+                "text": "Los sujetos",
+                "posY": 70,
+                "posX": 40
+              },
+              {
+                "key": 2,
+                "text": "son todos los",
+                "posY": 70,
+                "posX": 220
+              },
+              {
+                "key": 3,
+                "text": "del territorio nacional.",
+                "posY": 70,
+                "posX": 440
+              }
+            ],
+            "drops": [
+              {
+                "key": 1,
+                "box": "<div class = 'boxDrop'></div>",
+                "size": 94,
+                "posY": 57,
+                "posX": 115,
+                "type": "activos"
+              },
+              {
+                "key": 2,
+                "box": "<div class = 'boxDrop'></div>",
+                "size": 120,
+                "posY": 57,
+                "posX": 307,
+                "type": "municipios"
+              }
+            ]
+          },
+          {
+            "key": 4,
+            "lines": [
+              {
+                "key": 1,
+                "text": "Los sujetos",
+                "posY": 30,
+                "posX": 40
+              },
+              {
+                "key": 2,
+                "text": "son todas las personas que están dedicadas a la actividad del comercio y/o ",
+                "posY": 30,
+                "posX": 227
+              },
+              {
+                "key": 3,
+                "text": "asimilada, además de las entidades ",
+                "posY": 70,
+                "posX": 40
+              }
+            ],
+            "drops": [
+              {
+                "key": 1,
+                "box": "<div class = 'boxDrop'></div>",
+                "size": 100,
+                "posY": 20,
+                "posX": 112,
+                "type": "pasivos"
+              },
+              {
+                "key": 2,
+                "box": "<div class = 'boxDrop'></div>",
+                "size": 140,
+                "posY": 57,
+                "posX": 271,
+                "type": "financieras."
+              }
+            ]
+          },
+          {
+            "key": 5,
+            "lines": [
+              {
+                "key": 1,
+                "text": "El impuesto de",
+                "posY": 30,
+                "posX": 40
+              },
+              {
+                "key": 2,
+                "text": "y",
+                "posY": 30,
+                "posX": 240
+              },
+              {
+                "key": 3,
+                "text": "es el que se genera por el ejercicio o realización directa ",
+                "posY": 30,
+                "posX": 350
+              },
+              {
+                "key": 4,
+                "text": "o indirecta de cualquier actividad industrial, comercial o de servicios en un determinado municipio.",
+                "posY": 70,
+                "posX": 40
+              }
+            ],
+            "drops": [
+              {
+                "key": 1,
+                "box": "<div class = 'boxDrop'></div>",
+                "size": 90,
+                "posY": 20,
+                "posX": 133,
+                "type": "industria"
+              },
+              {
+                "key": 2,
+                "box": "<div class = 'boxDrop'></div>",
+                "size": 90,
+                "posY": 20,
+                "posX": 245,
+                "type": "comercio"
+              }
+            ]
+          },
+          {
+            "key": 6,
+            "lines": [
+              {
+                "key": 1,
+                "text": "El impuesto de industria y comercio es un tributo",
+                "posY": 30,
+                "posX": 40
+              },
+              {
+                "key": 2,
+                "text": ", que grava la realización de actividades",
+                "posY": 30,
+                "posX": 476
+              },
+              {
+                "key": 3,
+                "text": ", comerciales y de servicio.",
+                "posY": 70,
+                "posX": 150
+              }
+            ],
+            "drops": [
+              {
+                "key": 1,
+                "box": "<div class = 'boxDrop'></div>",
+                "size": 110,
+                "posY": 20,
+                "posX": 352,
+                "type": "municipal"
+              },
+              {
+                "key": 2,
+                "box": "<div class = 'boxDrop'></div>",
+                "size": 110,
+                "posY": 57,
+                "posX": 30,
+                "type": "industriales"
+              }
+            ]
+          }
+        ]
+      },
+      "content": [
+        {
+          "info": 1,
+          "img": "img/check.png",
+          "imgSize": 150,
+          "title": "¡Muy bien!",
+          "text": "<p></p>"
+        }
+      ]
+    }
+  },
+
+  "page9": {
+    "type": "pageCourse",
+    "startUnit": true,
+    "endUnit": true,
+    "nameUnit": "unit4",
+    "title": "4. Impuesto de avisos y tableros",
+    "text": "",
+    "text2": "Visualiza el siguiente video para conocer la información sobre este tipo de impuesto",
+    "boxInfo": {
+      "title": "RECURSO AUDIOVISUAL",
+      "text": "Visualiza el siguiente video para conocer la información.",
+      "imgBg": "img/video-1.png"
+    },
+    "instruction": {
+      "text": "Haz clic en botón Play para reproducir el material audiovisual.",
+      "posY": 60,
+      "posX": 0,
+      "size": 300
+    },
+    "instruction2": {
+      "type": "print",
+      "link": "docs/doc-2-ejemplo-de-liquidacion-de-avisos-y-tableros.pdf",
+      "text": "Descarga el siguiente documento donde encontrarás un ejemplo de liquidación de este impuesto.",
+      "posY": 450,
+      "posX": 46,
+      "size": 310
+    },
+    "modal": {
+      "type": "videoModal",
+      "title": "",
+      "text": "",
+      "buttonModal": "",
+      "closedModal": true,
+      "urlVideo": "video/impuesto-de-avisos-y-tableros.mp4"
+    }
+  },
+
+  "page10": {
+    "type": "pageCourse",
+    "startUnit": true,
+    "title": "5. Impuesto predial",
+    "text": "Son sujetos pasivos todas las personas naturales y jurídicas ubicadas en el territorio nacional.",
+    "text2": "",
+    "img": "img/10/impuesto-predial.png",
+    "instruction": {
+      "type": "info",
+      "link": "",
+      "text": "Haz clic en las flechas y navega en su contenido.",
+      "posY": 455,
+      "posX": 46,
+      "size": 330
+    },
+    "multimedia": [
+      {
+        "id": 1,
+        "text": "Son sujetos pasivos todos los propietarios de predios, inmuebles urbanos o rurales que estén en la jurisdicción de cada municipio. Si tengo un local en Sabanalarga - Atlántico, debo pagar el impuesto de ese predio en ese municipio, y si tengo una finca en Moñitos – Córdoba, debo pagar el predial en ese municipio."
+      },
+      {
+        "id": 2,
+        "text": "Esta información está consignada en la DIAN gracias a los datos que le transmiten los municipios y los departamentos de Colombia, además de la información por compra de inmuebles que se realizan en las notarias (este ente tiene la responsabilidad de informarle a la DIAN las operaciones realizadas) sobre la venta y compra a cada tercero y la retención que aplicó a esa operación."
+      },
+      {
+        "id": 3,
+        "text": "Las tarifas se liquidan como aparece en el siguiente ejemplo:",
+        "link": "docs/doc-3-las-tarifas-del-impuesto-predial-se-liquidan-como–dice-este-ejemplo.pdf",
+        "textLink": "Descarga el siguiente documento donde encontrarás un ejemplo de liquidación de este impuesto."
+      }
+    ]
+  },
+
+  "page11": {
+    "type": "pageCourse",
+    "title": "5. Impuesto predial",
+    "text": "",
+    "multimedia": {
+      "audio": {
+        "src": "audio/predial.mp3",
+        "autoPlay": true
+      },
+      "subtitles": {
+        "0": "Impuesto predial",
+        "2": "Cada municipio debe actualizar el catastro con base",
+        "5": "en las condiciones individuales de cada vivienda",
+        "8": "y no en el sector en el cual esté asentada."
+      },
+      "movePage":false,
+      "moveTime": 0,
+      "layers": [
+        [
+          {
+            "label": "Cada municipio</br> debe",
+            "labelSide": "bottom",
+            "icon": "img/11/i1.png",
+            "time": 1,
+            "size": 200,
+            "position": {
+              "xPosition": -20,
+              "yPosition": 10
+            }
+          },
+          {
+            "icon": "img/11/l1.png",
+            "time": 2,
+            "size": 21,
+            "position": {
+              "xPosition": 170,
+              "yPosition": 104
+            }
+          },
+          {
+            "label": "actualizar el</br> catastro con base",
+            "labelSide": "bottom",
+            "icon": "img/11/i2.png",
+            "time": 3,
+            "size": 215,
+            "position": {
+              "xPosition": 181,
+              "yPosition": 149
+            }
+          },
+          {
+            "icon": "img/11/l2.png",
+            "time": 4,
+            "size": 178,
+            "position": {
+              "xPosition": 181,
+              "yPosition": 8
+            }
+          },
+          {
+            "label": "en las condiciones individuales</br> de cada vivienda",
+            "labelSide": "bottom",
+            "icon": "img/11/i3.png",
+            "time": 5,
+            "size": 191,
+            "position": {
+              "xPosition": 355,
+              "yPosition": 0
+            }
+          },
+          {
+            "icon": "img/11/l3.png",
+            "time": 7,
+            "size": 468,
+            "position": {
+              "xPosition": 179,
+              "yPosition": -37
+            }
+          },
+          {
+            "label": "y no en el sector en el </br> cual esté asentada.",
+            "labelSide": "bottom",
+            "icon": "img/11/i4.png",
+            "time": 8,
+            "size": 467,
+            "position": {
+              "xPosition": 485,
+              "yPosition": 60
+            }
+          }
+        ]
+      ]
+    }
+  },
+
+  "page12": {
+    "type": "pageCourse",
+    "title": "5. Impuesto predial",
+    "text": "Existen actualmente dos modelos de cobro del impuesto predial como lo indica la Ley 14 de 1983 y son:",
+    "instruction": {
+      "type": "info",
+      "link": "",
+      "text": "Haz clic cada ícono para conocer qué órgano legisla en el departamento y en el municipio – distrito",
+      "posY": 460,
+      "posX": 20,
+      "size": 310
+    },
+    "multimedia": {
+      "button": [
+        {
+          "text": "",
+          "numBtn": 1,
+          "img": "img/12/autoavaluo.png",
+          "text": "Autoavalúo"
+        },
+        {
+          "text": "",
+          "numBtn": 2,
+          "img": "img/12/avaluo.png",
+          "text": "Avalúo"
+        }
+      ],
+      "content": [
+        {
+          "info": 1,
+          "img": "img/12/autoavaluo-2.png",
+          "imgSize": 150,
+          "title": "Autoavalúo",
+          "text": "<h5 class = 'mB-05 fw-4 tCenter'>Este modelo es utilizado en la ciudad de Bogotá, cada contribuyente de acuerdo a la zona, estrato económico social y el área de su predio, cada dos meses presenta su declaración de catastro. Esto es muy beneficioso en el caso de una venta futura, porque puede planear el tiempo de venta y la utilidad a obtener o tomando el costo fiscal como el avalúo catastral.</h5>"
+        },
+        {
+          "info": 2,
+          "img": "img/12/avaluo-2.png",
+          "imgSize": 150,
+          "title": "Avalúo",
+          "text": "<h5 class = 'mB-05 fw-4 tCenter'>En los demás municipios de Colombia está el catastro que consiste en el avalúo que hace el mismo municipio, liquida un impuesto que es facturado de acuerdo a sus necesidades financieras o conforme a un acuerdo municipal. Ejemplo: Medellín factura el predial cada tres meses y el municipio de Envigado lo factura cada 6.</h5>"
+        }
+      ]
+    }
+  },
+
+  "page13": {
+    "type": "pageCourse",
+    "endUnit": true,
+    "nameUnit": "unit5",
+    "title": "Recuerda lo aprendido",
+    "text": "Para comprobar qué tanto has comprendido hasta el momento, te invitamos a realizar el siguiente ejercicio:",
+    "instruction": {
+      "type": "info",
+      "link": "",
+      "text": "Haz clic sostenido sobre la definición y llévala al concepto que le corresponda.",
+      "posY": 470,
+      "posX": 20,
+      "size": 450
+    },
+    "multimedia": {
+      "dragItem": [
+        {
+          "id": 1,
+          "text": "Este modelo es utilizado solamente en la ciudad de Bogotá",
+          "color": "#FEC800"
+        },
+        {
+          "id": 2,
+          "text": "El municipio liquida un impuesto que es facturado de acuerdo a sus necesidades financieras o conforme a un acuerdo municipal",
+          "color": "#F15A24"
+        },
+        {
+          "id": 3,
+          "text": "Impuesto que se paga por los predios, inmuebles urbanos o rurales que estén en la jurisdicción de cada municipio",
+          "color": "#00B6D2"
+        },
+        {
+          "id": 4,
+          "text": "Es el impuesto que se paga por la instalación de avisos en el espacio público",
+          "color": "#A1A1A1"
+        }
+      ],
+      "dropZone": {
+        "colors": ["#F15A24", "#00B6D2", "#FEC800", "#A1A1A1"],
+        "paragraph": [
+          {
+            "key": 1,
+            "lines": [
+              {
+                "key": 1,
+                "text": "Avalúo",
+                "posY": 20,
+                "posX": 20
+              },
+              {
+                "key": 2,
+                "text": "Impuesto predial",
+                "posY": 20,
+                "posX": 235
+              },
+              {
+                "key": 3,
+                "text": "Autoavalúo",
+                "posY": 20,
+                "posX": 448
+              },
+              {
+                "key": 4,
+                "text": "Impuesto de avisos y tableros",
+                "posY": 20,
+                "posX": 660
+              }
+            ],
+            "drops": [
+              {
+                "key": 1,
+                "box": "<div class = 'boxDrop'></div>",
+                "size": 190,
+                "posY": 65,
+                "posX": 20,
+                "type": "El municipio liquida un impuesto que es facturado de acuerdo a sus necesidades financieras o conforme a un acuerdo municipal"
+              },
+              {
+                "key": 2,
+                "box": "<div class = 'boxDrop'></div>",
+                "size": 190,
+                "posY": 65,
+                "posX": 235,
+                "type": "Impuesto que se paga por los predios, inmuebles urbanos o rurales que estén en la jurisdicción de cada municipio"
+              },
+              {
+                "key": 3,
+                "box": "<div class = 'boxDrop'></div>",
+                "size": 190,
+                "posY": 65,
+                "posX": 448,
+                "type": "Este modelo es utilizado solamente en la ciudad de Bogotá"
+              },
+              {
+                "key": 4,
+                "box": "<div class = 'boxDrop'></div>",
+                "size": 190,
+                "posY": 65,
+                "posX": 660,
+                "type": "Es el impuesto que se paga por la instalación de avisos en el espacio público"
+              }
+            ]
+          }
+        ]
+      },
+      "content": [
+        {
+          "info": 1,
+          "img": "img/check.png",
+          "imgSize": 150,
+          "title": "¡Muy bien!",
+          "text": "<p></p>"
+        }
+      ]
+    }
+  },
+
+  "page14": {
+    "type": "pageCourse",
+    "startUnit": true,
+    "title": "6. Impuesto de vehículos",
+    "text": "¿Sabes cómo se calcula el impuesto sobre vehículos automotores? Es muy simple, debes tener en cuenta los siguientes elementos.",
+    "instruction": {
+      "type": "print",
+      "link": "docs/doc-4-tarifa-del-impuesto-de-vehiculos-para-el-ano-2018.pdf",
+      "text": "Haz clic aquí para descargar el siguiente documento.",
+      "posY": 450,
+      "posX": 20,
+      "size": 310
+    },
+    "instruction2": {
+      "text": "Haz clic en los números en orden consecutivo para conocer la información.",
+      "posY": 300,
+      "posX": 400,
+      "size": 230
+    },
+    "multimediaCircular": [
+      {
+        "pos": {
+          "top": 71,
+          "left": 330
+        },
+        "itemInfo": {
+          "title": "La base gravable",
+          "text": "Es el valor del vehículo establecido anualmente por el Ministerio de Transporte.",
+          "posGlobe": {
+            "posY": 35,
+            "posX": 380,
+            "size": 410
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -15,
+            "posX": 385
+          },
+          "posTriang": "left"
+        }
+      },
+      {
+        "pos": {
+          "top": 280,
+          "left": 360
+        },
+        "itemInfo": {
+          "title": "Clase del vehículo",
+          "text": "Corresponde al tipo de vehículo: automóvil, carga, pasajeros o motocicleta.",
+          "posGlobe": {
+            "posY": 250,
+            "posX": 410,
+            "size": 410
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -15,
+            "posX": 385
+          },
+          "posTriang": "left"
+        }
+      },
+      {
+        "pos": {
+          "top": 240,
+          "left": 650
+        },
+        "itemInfo": {
+          "title": "Características del vehículo",
+          "text": "Marca, línea, modelo, capacidad (de acuerdo con la clase de vehículo).",
+          "posGlobe": {
+            "posY": 210,
+            "posX": 230,
+            "size": 410
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -15,
+            "posX": -20
+          },
+          "posTriang": "right"
+        }
+      },
+      {
+        "pos": {
+          "top": 61,
+          "left": 640
+        },
+        "itemInfo": {
+          "title": "La tarifa",
+          "text": "Es la tasa por aplicar sobre la base gravable del vehículo establecida anualmente, mediante decreto del Ministerio de Hacienda para determinar el valor del impuesto. La tarifa varía de acuerdo con el uso (particular o público) y el avalúo del vehículo. A continuación, se relaciona la tarifa vigente del año 2018.",
+          "posGlobe": {
+            "posY": 2,
+            "posX": 220,
+            "size": 410
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -15,
+            "posX": -20
+          },
+          "posTriang": "right"
+        }
+      }
+    ]
+  },
+
+  "page15": {
+    "type": "pageCourse",
+    "endUnit": true,
+    "nameUnit": "unit6",
+    "title": "6. Impuesto de vehículos",
+    "text": "",
+    "text2": "¿Sabes a quién le corresponde pagar el impuesto sobre vehículos automotores? Si no lo sabes, presta atención al siguiente video.",
+    "boxInfo": {
+      "title": "RECURSO AUDIOVISUAL",
+      "text": "Visualiza el siguiente video para conocer la información.",
+      "imgBg": "img/video-1.png"
+    },
+    "instruction": {
+      "text": "Haz clic en botón Play para reproducir el material audiovisual.",
+      "posY": 60,
+      "posX": 0,
+      "size": 300
+    },
+    "modal": {
+      "type": "videoModal",
+      "title": "",
+      "text": "",
+      "buttonModal": "",
+      "closedModal": true,
+      "urlVideo": "video/impuesto-de-vehiculos.mp4"
+    }
+  },
+
+  "page16": {
+    "type": "pageCourse",
+    "startUnit": true,
+    "title": "7. Otros impuestos",
+    "text": "A continuación, vas a aprender sobre los otros tipos de impuestos:",
+    "instruction": {
+      "type": "info",
+      "link": "",
+      "text": "Haz clic en los botones laterales para conocer el contenido.",
+      "posY": 485,
+      "posX": 20,
+      "size": 330
+    },
+    "multimedia": [
+      {
+        "id": 1,
+        "title": "",
+        "text": "<b>Impuestos de degüelle de ganado menor:</b> son los impuestos que se cobran a las compañías avícolas, porcícolas, entre otros, por el sacrificio de cada unidad con destino comercial.",
+        "img": "img/16/img-1.png"
+      },
+      {
+        "id": 2,
+        "title": "",
+        "text": "<b>Sobretasa bomberil:</b> es un aporte municipal que se cobra a los propietarios de inmuebles urbanos o rurales destinado al mantenimiento e incorporación de equipos y mano de obra de los bomberos voluntarios de cada municipio.",
+        "img": "img/16/img-2.png"
+      },
+      {
+        "id": 3,
+        "title": "",
+        "text": "<b>La tasa de salud:</b> tasa de compensación que se debe pagar para obtener una licencia de funcionamiento de una empresa.",
+        "img": "img/16/img-3.png"
+      },
+      {
+        "id": 4,
+        "title": "",
+        "text": "<b>Impuesto de plusvalía:</b> este impuesto aplica para las empresas de construcción, por mayor valor obtenido a través del aprovechamiento o valorización del predio en el tiempo o por obras de valorización. Hoy si lo están cobrando.",
+        "img": "img/16/img-4.png"
+      },
+      {
+        "id": 5,
+        "title": "",
+        "text": "<b>Impuesto de delineación urbana:</b> se aplica para la expedición de licencias de construcción, ampliación, modificación, adecuación y reparación de obras y/o terrenos.",
+        "img": "img/16/img-5.png"
+      },
+      {
+        "id": 6,
+        "title": "",
+        "text": "<b>Impuesto a los juegos de azar y espectáculos:</b> es un impuesto cuya aplicación se genera por la realización de diferentes eventos, entre los que se pueden encontrar: espectáculos públicos, apuestas sobre toda clase de juegos permitidos, rifas, concursos y similares, y venta por el sistema de clubes.",
+        "img": "img/16/img-6.png"
+      }
+    ]
+  },
+
+  "page17": {
+    "type": "endCourse",
+    "endUnit": true,
+    "endCourse": true,
+    "type": "endCourse",
+    "nameUnit": "unit4",
+    "title": "Impuesto corporativo",
+    "subTitle": "sobre la renta y complementarios",
+    "module": "Módulo 2",
+    "text": "En este segundo módulo pudiste aprender sobre los impuestos territoriales. Esperamos que haya sido de tu agrado y puedas poner en práctica el conocimiento adquirido.",
+    "text2": "Recuerda que es necesario llevar a cabalidad cada procedimiento para no tener problemas legales en un futuro.",
+    "logoCourse": "img/logo.png",
+    "buttonStart": "Finalizar",
+    "boxInfo": {
+      "title": "¡Has finalizado exitosamente!",
+      "text": "¡Te invitamos a continuar con la evaluación de conocimientos y con el tercer módulo, donde conocerás todo lo relacionado con los procedimientos tributarios y las sanciones!",
+      "imgBg": "img/welcome-2.png"
+    }
+  },
+
+  "backCover": {
+    "type": "endPage",
+    "title": "¡Has finalizado este módulo!",
+    "text": "Cierra la ventana para continuar.",
+    "img": "img/like.png"
+  },
+
+  "finishUnit": {
+    "title": "Has finalizado este tema",
+    "text": "A continuación haz clic en el ícono del menú para volver al principal y avanzar en un nuevo tema.",
+    "img": "img/check.png"
+  }
+}

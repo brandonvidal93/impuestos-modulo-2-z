@@ -1,0 +1,56 @@
+@import "../resources/colors.scss";
+@import "../resources/animation.scss";
+
+.header {
+  position: absolute;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  top: -15px;
+  right: -15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  .buttonMenu {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: $color4;
+    border-radius: 50%;
+    border: 0;
+    text-align: center;
+    box-shadow: 0 3px 10px -4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+    transition: all 0.4s;
+
+    .iconButton { color: $color1; opacity: 0.5 }
+
+    &:hover {
+      background-color: $color2;
+      box-shadow: 0 8px 8px -5px rgba(0, 0, 0, 0.6);
+
+      .iconButton { color: $color4; animation: bounce-in-fwd .7s both; opacity: 1 }
+    }
+  }
+
+  .btnInLastPage {
+    background-color: $color2;
+    .iconButton { color: $color4; opacity: 1 }
+  }
+
+  .signal {
+    background-color: $color2;
+    box-shadow: 0 8px 8px -5px rgba(0, 0, 0, 0.6);
+    .iconButton {
+      color: $color4;
+      animation: bounce-in-fwd .7s both; opacity: 1
+    }
+  }
+}

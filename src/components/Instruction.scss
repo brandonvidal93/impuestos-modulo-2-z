@@ -1,0 +1,12 @@
+@import "../resources/colors";
+@import "../resources/animation.scss";
+
+.instructionBox {
+  position: absolute;
+  z-index: 3;
+
+  .icon {
+    color: $color2;
+    font-size: 3em;
+  }
+}

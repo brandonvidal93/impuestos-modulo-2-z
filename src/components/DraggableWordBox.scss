@@ -1,0 +1,66 @@
+@import "../resources/colors";
+@import "../resources/animation.scss";
+
+.draggableWordBox {
+  .contentSlide {
+    .slideBox {
+      padding: 1.5rem;
+      width: 85%;
+      height: 195px;
+      .line-drop {
+        position: absolute;
+        width: 190px;
+        height: 40px;
+      }
+      .boxDrop {
+        position: absolute;
+        height: 120px;
+        background: #F5F5F5;
+        border-width: 1px;
+        border-style: dotted;
+        width: 70px;
+        padding: .4em;
+      }
+      .WordDropped {
+        border: none;
+        p {
+          color: $color4;
+        }
+      }
+    }
+
+    .buttonSlide {
+      background-color: rgba(0, 0, 0, 0);
+
+      .iconButton {
+        font-size: 2em;
+        color: $color1;
+        transition: all .3s;
+      }
+
+      &:hover {
+        .iconButton {
+          color: $color2;
+        }
+      }
+    }
+  }
+
+  .contentWords {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    .dragWord {
+      background: #E4E4E4;
+      border: 1px solid #A1Ad2d2d21A1;
+      width: 190px;
+      height: 120px;
+      padding: .4em;
+      margin: .5em;
+      box-shadow: 0 3px 4px -1px rgba(0, 0, 0, 0.2);
+      border-radius: 3px;
+    }
+  }
+}

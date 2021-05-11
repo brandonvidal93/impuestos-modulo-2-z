@@ -1,0 +1,11 @@
+@import "./resources/colors.scss";
+
+.App {
+  overflow: hidden;
+  width: 1024px;
+  height: 650px;
+  border: 1px solid $color11;
+  background: url('./assets/img/backgrounds/bg-1.png');
+  margin: 0 auto;
+  box-sizing: border-box;
+}

@@ -1,0 +1,99 @@
+@import "../../resources/colors.scss";
+@import "../../resources/animation.scss";
+
+.menuContent {
+  width: 85%;
+  min-height: 340px;
+  margin: 0 auto;
+  overflow: hidden;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 82%;
+    top: 20px;
+    left: -2px;
+    box-shadow: 0px 0px 14px 3px rgba(0, 0, 0, 0.3);
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 82%;
+    top: 20px;
+    right: -2px;
+    box-shadow: 0px 0px 14px 3px rgba(0, 0, 0, 0.3);
+  }
+
+  .itemsContent {
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    transition: all .7s;
+
+    .menuItem {
+      transition: all 1s;
+
+      .menuInfo {
+        position: absolute;
+        top: 14px;
+        right: 0px;
+        padding: 1em;
+        width: 45%;
+        height: 248px;
+
+        .buttonTheme {
+          width: 130px;
+          border: 1px solid $color4;
+          border-radius: 15px;
+          background: none;
+          color: $color4;
+          transition: all .4s;
+
+          &:hover {
+            background: $color4;
+            color: $color1;
+          }
+        }
+      }
+    }
+
+    .disabledMenu {
+      transform: scale(0.9);
+      pointer-events: none;
+      opacity: 0.4;
+    }
+  }
+
+  .scrollMenu {
+    position: absolute;
+    left: 385px;
+    bottom: 20px;
+    .buttonTheme {
+      background: none;
+      margin-right: .5em;
+      transition: all .3s;
+
+      &:last-child {
+        margin-right: 0em;
+      }
+
+      .iconButton {
+        color: $color1;
+        transition: all .5s;
+      }
+
+      .visited { color: $color9; }
+    }
+
+    .actived {
+      .iconButton {color: $color2; font-size: 1.3em;}
+    }
+
+    .visited {
+      .iconButton { color: $color9; }
+    }
+  }
+}
